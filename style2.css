@@ -1,0 +1,67 @@
+.body{
+    background-image: url("https://ik.imagekit.io/ccxs0e9lq/play-scrabble-letters-black-background%20(2).jpg?updatedAt=1709229585093");
+    /* height: 100vh; */
+    /* width: 100vw; */
+    font-family: sans-serif;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin-top: 190px;
+
+}
+.signup{
+    width: 360px;
+    height: 360px;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.login{
+    width: 360px;
+    height: 320px;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    /* margin-top: 50px; */
+}
+
+h1{
+    text-align: center;
+}
+form{
+    width: 300px;
+    margin-left: 20px;
+}
+form label{
+    display:flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+form input{
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+}
+
+input[type="submit"]{
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    background-color: #3571AE;
+    color: #fff;
+    font-size: 18px;
+
+}
+
+input[type="submit"]:hover{
+    color: #fff;
+    background: rgb(13, 211, 247);
+}
+.para{
+    text-align: center;
+}
