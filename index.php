@@ -23,7 +23,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST")
 
                 if($user_data['pass'] == $Password)
                 {
-                    header("location: index.html");
+                    header("location: home.html");
                 }
 
 

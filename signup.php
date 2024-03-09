@@ -17,7 +17,7 @@
             if ($con->query($sql) === TRUE) {
                 // echo "New record created successfully";
                 echo "<script type='text/javascript'> alert('signup completed sucessfully')</script>";
-                header("Location: login.php");
+                header("Location: index.php");
             } else {
             echo "Error: " . $sql . "<br>" . $con->error;
             }
@@ -49,7 +49,7 @@
             <label>Password</label>
             <input type="password" name="pass" required>
             <input type="submit" name="" value="Submit">
-            <p>Alredy have an account? <a href="login.php"> Login Here</a>  </p>
+            <p>Alredy have an account? <a href="index.php"> Login Here</a>  </p>
         </form>
     </div>
 </body>
